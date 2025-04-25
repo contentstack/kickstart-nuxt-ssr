@@ -5,11 +5,9 @@ export const useGetPage = async (url: string) => {
   const { data, status } = await useAsyncData(`page-${url}`, async () => {
     const { $preview, $stack } = useNuxtApp()
     const route = useRoute()
-    const qs = toRaw(route.query)
+    const qs = { ...toRaw(route.query) }
 
     if ($preview && qs?.live_preview) {
-      const route = useRoute()
-      const qs = toRaw(route.query)
       $stack.livePreviewQuery(qs as unknown as LivePreviewQuery)
     }
 
