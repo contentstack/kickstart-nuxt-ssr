@@ -1,5 +1,5 @@
 import contentstack, { QueryOperation, type LivePreviewQuery } from "@contentstack/delivery-sdk";
-import type { Page } from "~/types";
+import type { Page } from "../../types";
 
 export const useGetPage = async (url: string) => {
   const { data, status } = await useAsyncData(`page-${url}`, async () => {
