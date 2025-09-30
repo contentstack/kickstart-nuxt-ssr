@@ -18,12 +18,12 @@
     "postinstall": "nuxt prepare"
   },
   "dependencies": {
-    "@contentstack/delivery-sdk": "^4.8.0",
-    "@contentstack/live-preview-utils": "^3.4.0",
+    "@contentstack/delivery-sdk": "^4.10.0",
+    "@contentstack/live-preview-utils": "^4.0.2",
     "@nuxtjs/tailwindcss": "^6.14.0",
-    "@timbenniks/contentstack-endpoints": "^1.0.14",
-    "nuxt": "^4.0.3",
-    "vue": "latest",
-    "vue-router": "latest"
+    "@timbenniks/contentstack-endpoints": "^1.0.16",
+    "nuxt": "^4.1.2",
+    "vue": "^3.5.22",
+    "vue-router": "^4.5.1"
   }
 }
