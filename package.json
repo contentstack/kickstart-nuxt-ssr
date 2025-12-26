@@ -1,6 +1,6 @@
 {
   "name": "kickstart-nuxt-ssr",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "private": false,
   "repository": {
     "type": "git",
@@ -18,11 +18,11 @@
     "postinstall": "nuxt prepare"
   },
   "dependencies": {
-    "@contentstack/delivery-sdk": "^4.10.1",
-    "@contentstack/live-preview-utils": "4.1.0",
+    "@contentstack/delivery-sdk": "^4.10.4",
+    "@contentstack/live-preview-utils": "4.1.3",
     "@nuxtjs/tailwindcss": "^6.14.0",
-    "@timbenniks/contentstack-endpoints": "^2.0.0",
-    "nuxt": "^4.0.3",
+    "@timbenniks/contentstack-endpoints": "^2.1.0",
+    "nuxt": "^4.2.2",
     "vue": "latest",
     "vue-router": "latest"
   }
