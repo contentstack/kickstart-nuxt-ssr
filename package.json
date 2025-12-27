@@ -21,7 +21,7 @@
     "@contentstack/delivery-sdk": "^4.10.1",
     "@contentstack/live-preview-utils": "4.1.0",
     "@nuxtjs/tailwindcss": "^6.14.0",
-    "@timbenniks/contentstack-endpoints": "^2.0.0",
+    "@timbenniks/contentstack-endpoints": "^2.1.0",
     "nuxt": "^4.0.3",
     "vue": "latest",
     "vue-router": "latest"
