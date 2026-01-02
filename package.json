@@ -24,6 +24,6 @@
     "@timbenniks/contentstack-endpoints": "^2.0.0",
     "nuxt": "^4.0.3",
     "vue": "latest",
-    "vue-router": "latest"
+    "vue-router": "4.6.4"
   }
 }
