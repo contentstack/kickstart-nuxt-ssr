@@ -26,6 +26,10 @@
     "vue": "^3.5.38",
     "vue-router": "^5.1.0"
   },
+  "optionalDependencies": {
+    "@rollup/rollup-linux-x64-gnu": "^4.62.0",
+    "@rollup/rollup-linux-x64-musl": "^4.62.0"
+  },
   "overrides": {
     "brace-expansion": "5.0.6",
     "devalue": "5.8.1",
