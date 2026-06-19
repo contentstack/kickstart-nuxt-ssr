@@ -1,7 +1,7 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 
 import { getContentstackEndpoint, type ContentstackEndpoints } from "@contentstack/utils";
-const endpoints = getContentstackEndpoint(process.env.NUXT_CONTENTSTACK_REGION || 'us', '', true) as ContentstackEndpoints
+const endpoints = getContentstackEndpoint(process.env.NUXT_CONTENTSTACK_REGION || 'NA', '', true) as ContentstackEndpoints
 
 export default defineNuxtConfig({
   compatibilityDate: '2024-04-03',
