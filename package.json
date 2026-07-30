@@ -26,13 +26,12 @@
     "vue": "^3.5.40",
     "vue-router": "^5.2.0"
   },
-  "optionalDependencies": {
-    "@rollup/rollup-linux-x64-gnu": "^4.62.3",
-    "@rollup/rollup-linux-x64-musl": "^4.62.3"
-  },
+  "optionalDependencies": {},
   "overrides": {
     "replace-in-file": {
       "glob": "^11.1.0"
-    }
+    },
+    "@rollup/rollup-linux-x64-gnu": "4.62.2",
+    "@rollup/rollup-linux-x64-musl": "4.62.2"
   }
 }
