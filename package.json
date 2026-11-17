@@ -19,12 +19,12 @@
   },
   "dependencies": {
     "@contentstack/delivery-sdk": "^5.6.2",
-    "@contentstack/live-preview-utils": "^4.5.3",
+    "@contentstack/live-preview-utils": "^4.6.1",
     "@contentstack/utils": "^1.9.1",
     "@nuxtjs/tailwindcss": "^6.14.0",
-    "nuxt": "^4.6.0",
-    "vue": "^3.5.44",
-    "vue-router": "^5.4.0"
+    "nuxt": "^4.6.4",
+    "vue": "^3.5.45",
+    "vue-router": "^5.5.1"
   },
   "optionalDependencies": {},
   "overrides": {
@@ -32,10 +32,10 @@
       "glob": "^11.1.0",
       "nanoid": "3.3.20"
     },
-    "@rollup/rollup-linux-x64-gnu": "4.62.5",
-    "@rollup/rollup-linux-x64-musl": "4.62.5",
+    "@rollup/rollup-linux-x64-gnu": "4.68.5",
+    "@rollup/rollup-linux-x64-musl": "4.68.5",
     "nanoid": "3.3.20",
     "qs": "^6.17.1",
-    "undici": "^8.12.3"
+    "undici": "^8.12.4"
   }
 }
